@@ -6,7 +6,7 @@ provider "aws" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "bucket" {
-  bucket = "shrish-tf-bucket"
+  bucket = "shrish-tf-bucket-test"
 }
 
 output "s3-bucket-id" {
